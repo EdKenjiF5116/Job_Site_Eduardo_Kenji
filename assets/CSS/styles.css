@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+#secao_noticias{
+    display: flex;
+    align-items: baseline;
+    gap: 5rem;
+    padding: 2rem;
+    height: 100vh;
+
+}
+#secao_noticias img{
+
+}
+
+#texto_noticias{
+        color: #161C2D;
+}
+
+#texto_noticias h1{
+    font-weight: 700;
+    font-size: 2.25rem;
+    display: flex;
+    align: center;
+    /*16px = 1rem*/
+}
+
+#texto_noticias p{
+    display: flex;
+    font-size: 1.1875rem;
+    /*16px = 1rem*/
+}
+
+#imagens_logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 40%;
+  }
+  
+  #imagens_logos img {
+    width: 100%;
+  }
